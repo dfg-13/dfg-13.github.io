@@ -54,29 +54,6 @@ div#mainText{
     text-align: left;
 }
 
-div#sidebars{
-    font-size: 1em;
-    background-color: aqua;
-    padding: 10px;
-    height: 80px;
-    text-align: center;
-}
-
-div#sidebar{
-    font-size: 1em;
-    background-color: aqua;
-    padding: 10px;
-    height: 125px;
-    text-align: center;
-}
-
-div#sidebarsTop{
-    font-size: 1em;
-    background-color: aqua;
-    padding: 10px;
-    height: 220px;
-    text-align: center;
-}
     
 .center {
     display: block;
