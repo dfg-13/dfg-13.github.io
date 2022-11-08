@@ -1,0 +1,98 @@
+html {
+    background-color: rgb(150, 150, 150);
+}
+    
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    
+nav {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    font-family: Arial;
+    text-align: center;
+}
+    
+h1 {
+    font-family: Arial;
+    size: 4em;
+    padding-bottom: 10px;
+}
+
+h2{
+    font-family: Arial;
+    size: 3em;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: Arial;
+    size: 2.75em;
+    padding-bottom: 10px;
+}
+
+h4{
+    font-family: Arial;
+    size: 2.25em;
+    padding-bottom: 10px;
+}
+    
+p {
+    padding-bottom: 10px;
+    font-family: Arial;
+}
+    
+div#mainText{
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+    text-align: left;
+}
+
+div#sidebars{
+    font-size: 1em;
+    background-color: aqua;
+    padding: 10px;
+    height: 80px;
+    text-align: center;
+}
+
+div#sidebar{
+    font-size: 1em;
+    background-color: aqua;
+    padding: 10px;
+    height: 125px;
+    text-align: center;
+}
+
+div#sidebarsTop{
+    font-size: 1em;
+    background-color: aqua;
+    padding: 10px;
+    height: 220px;
+    text-align: center;
+}
+    
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+figure {
+    float: right;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+    

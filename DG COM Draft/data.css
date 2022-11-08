@@ -1,0 +1,29 @@
+html {
+    background-color: rgb(150, 150, 150);
+}
+
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+figure {
+    float: right;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
