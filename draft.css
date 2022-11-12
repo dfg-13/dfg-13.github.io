@@ -97,9 +97,10 @@ p {
 aside {
     width: 40%;
     padding-left: .5rem;
-    margin-left: .5rem;
+    margin-left: .75rem;
+    margin-bottom: .1rem;
     float: right;
-    box-shadow: inset 5px 0 5px -5px #0084ff;
+    box-shadow: inset 5px 0px 5px -5px #0084ff;
     font-style: italic;
     color: #000000;
   }
