@@ -17,6 +17,26 @@ nav {
     font-family: Arial;
     text-align: center;
 }
+
+.horizonBar{
+    list-style-type: none;
+}
+
+.horizonBar li{
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 4px;
+	margin-left: 2px;
+	border: 1px solid #000;
+}
+
+.horizonBar a{
+    display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#009;
+}
     
 h1 {
     font-family: Arial;
@@ -47,7 +67,7 @@ p {
     font-family: Arial;
 }
     
-div#mainText{
+.homeText{
     font-family: Arial;
     font-size: 1em;
     color: black;
@@ -56,7 +76,7 @@ div#mainText{
     margin-right: auto;
 }
 
-ul#navButtons{
+.navButtons{
     list-style-type: none;
 }
 
