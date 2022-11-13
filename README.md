@@ -1,2 +1,2 @@
 # dfg-13.github.io
-Sustainable Information Project
+Sustainable Information Structure Project
