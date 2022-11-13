@@ -3,27 +3,73 @@
 <head>
     <meta charset="utf-8">
     <title>Template Module</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="draft.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+
+<body>
     <!--This nav tag classed as "horizonNav" is for the top navigation bar. Copy/paste this into future html files-->
     <nav class="horizonNav">
         <ul class="horizonBar">
             <li><a href="home.html">Home</a></li>
-            <li><a href="">Topic</a></li>
+            <li><a href="template.html">Topic</a></li>
             <li><a href="research.html">Research</a></li>
             <li><a href="data.html">Data</a></li>
-            <li><a href="">References</a></li>
-            <li><a href="">Style</a></li>
-            <li><a href="">Layout</a></li>
-            <li><a href="">Modality</a></li>
-            <li><a href="">Professionalization</a></li>
+            <li><a href="template.html">References</a></li>
+            <li><a href="template.html">Style</a></li>
+            <li><a href="template.html">Layout</a></li>
+            <li><a href="template.html">Modality</a></li>
+            <li><a href="template.html">Professionalization</a></li>
         </ul>
     </nav>
-</head>
-<body>
-    <h1>Title: Template module for additional information</h1>
-    <p>The text directly underneath the top navigation bar is a &lt;h1&gt; header for setting the titles of the module.</p>
+
+    <h1>Temporary Title: Change the title via the &lt;h1&gt; tag</h1>
+    <p>The text directly underneath the the <b>&lt;h1&gt;</b> tag is a <b>&lt;p&gt;</b> tag which can be used for any sort of normal text much like a description for the module.</p>
     
+    <ul class="justList">
+        <li>This here is an unordered list hence the <b> &lt;ul&gt;</b> tag.</li>
+        <li>Inside the <b> &lt;ul&gt;</b> tag are the list items which are tagged as <b> &lt;li&gt;</b>.</li>
+        <li>The unordered list can also be given <i>class</i> attribute which can be useful when styling the list.</li>
+    </ul>
+
+    <p>Now an ordered list will be shown. The <b> &lt;ol&gt;</b> tag will be used to create the list and similar to the items in the previous unordered list it will use the <b> &lt;li&gt;</b> tag.</p>
     
+    <ol class="justList">
+        <li>Notice how this list is sorted versus the unordered list which is just marked with bullet points.</li>
+        <li>The numbering type can be changed in the stylesheet.</li>
+    </ol>
+
+    <aside>
+        <h4>This is a sidebar</h4>
+        <p>The header for the sidebar is using a <b> &lt;h3&gt;</b> tag inside of a <b> &lt;aside&gt;</b> tag. The purpose of these sidebars is to include additional information like quick tips or pieces of advice.</p>
+    </aside>
+
+    <section id="tempSection">
+        <h2>Sections after the &lt;h1&gt; tag should use the &lt;h2&gt; tag</h2>
+        <p>This is the start of a new section which is indicated in the html page by a <b> &lt;section&gt;</b> tag along with the start of a new <b> &lt;h2&gt;</b> header.</p>
+        <p>If the editor is to make subsections under a <b> &lt;h2&gt;</b> tag then any heading used should be a <b> &lt;h3&gt;</b> tag.</p>
+
+        <h2>Inserting an image into the module</h2>
+        <p>Now an example of using images within a module will be shown. Before adding an image into a module make sure that the image file is in the scope of the project. Alternatively, an external link can also be used when inserting an image to a module so long as it is put in the <i>href</i> attribute.</p>
+    
+        <figure>
+            <img src="https://www.formula1.com/content/dam/fom-website/manual/Misc/2022manual/WinterFebruary/RegulationsRight/GettyImages-1031412244(McLaren%20MP413).jpg.transform/9col/image.jpg" alt="irrelevant photo used as an example for inserting images" class="center">
+            <figcaption>This is a caption for the above figure using the <b> &lt;figcaption&gt;</b> tag.</figcaption>
+        </figure>
+
+        <p>To insert images, first start off with declaring the <b> &lt;figure&gt;</b> tag and then use the <b> &lt;img&gt;</b> tag for inserting the image itself. In the <b> &lt;img&gt;</b> tag there is a <i>src</i> attribute and <i>alt</i> attribute. One is for inserting the image's link or file directory while the other is for setting alternate text in case the image cannot be displayed, respectively. </p>
+        <p>Aside from images, if the editor wishes to implement icons then there is a separate folder in the files labeled <strong>icons</strong>.</p>
+    </section>
+    <section id="miscInfo">
+        <h2>Miscellaneous</h2>
+        <p>Everything that has been mentioned should be enough to get you started on making another module if you wish to do so. The next few things to be mentioned are more minor things that haven't been covered yet.</p>
+    
+        <p>Remember to keep typefaces in mind when typing out the information. These small things can make a difference to a reader when looking at a module, so be sure to be mindful of the reader and include these things if needed. Things such as italicizing or boldening can change how a reader may convey a piece of text. Use the <b> &lt;i&gt;</b> tag to italicize text and the <b> &lt;b&gt;</b> tag to make text bold. Alternatively, if the editor wishes to emphasize a certain piece of text more then they can use the <b> &lt;strong&gt;</b> instead of the bold tag. </p>
+    
+        <p>When everything related to information is completed make sure to use the <strong><a href="https://validator.w3.org/#validate_by_upload">HTML validator</a></strong> to double check and make sure there aren't any errors in the file that could potentially alter the page itself. Make changes as necessary until the validator says there are no errors.</p>
+        <p>On a final note, any stylistic changes must be made on the CSS for it to be shown. This is where attributes such as "id" or "class" come in handy because then they can be indicated in the stylesheet.</p>
+    
+        <p>To reiterate, this should just about cover everything needed to make an additional module if anyone chooses to do so.</p>
+    </section>
 
 </body>
 </html>
